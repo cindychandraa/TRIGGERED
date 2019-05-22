@@ -18,33 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yib-dj-8mb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wallpaperkuning" translatesAutoresizingMaskIntoConstraints="NO" id="Q24-vE-bNV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUe-tp-hhj">
-                                        <rect key="frame" x="166" y="561" width="82" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Let's Play!">
-                                            <color key="titleColor" red="1" green="0.29417502979999999" blue="0.42291624690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
-                                    </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="RUI-Dv-txc">
-                                        <rect key="frame" x="48" y="360" width="318" height="177"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcp-fG-Sah">
-                                        <rect key="frame" x="189" y="429" width="46" height="59"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Triangle"/>
-                                        <connections>
-                                            <segue destination="jG7-PR-1Rb" kind="show" id="wAn-xG-nvl"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.74231242128218344" blue="0.75549244526060988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wallpaperoren" translatesAutoresizingMaskIntoConstraints="NO" id="ga2-9r-mSG">
+                                <rect key="frame" x="-171" y="247" width="756" height="403"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wallpaper oren 2" translatesAutoresizingMaskIntoConstraints="NO" id="ECi-sa-If2">
+                                <rect key="frame" x="-44" y="315" width="502" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLK-sj-skF">
+                                <rect key="frame" x="114" y="367" width="186" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Annoyingface copy"/>
+                                <connections>
+                                    <segue destination="jG7-PR-1Rb" kind="show" id="6JL-bV-uBB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -62,41 +55,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Df-ai-eD3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wallpaper orennnn" translatesAutoresizingMaskIntoConstraints="NO" id="1u1-b4-HTE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaL-tz-Zc5">
-                                        <rect key="frame" x="186" y="52" width="71" height="74"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STARR" translatesAutoresizingMaskIntoConstraints="NO" id="XFB-8y-WAX">
-                                        <rect key="frame" x="137" y="384" width="141" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <gestureRecognizers/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.85279402517687541" blue="0.68908924569257435" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n87-X0-gao">
+                                <rect key="frame" x="45" y="117" width="142" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ANNOYINGFACE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UDN-I0-Dgp"/>
                     </view>
                     <connections>
-                        <outlet property="star" destination="XFB-8y-WAX" id="fED-fo-3Ly"/>
+                        <outlet property="annoyingFace" destination="n87-X0-gao" id="8aP-w2-HEF"/>
+                        <segue destination="01J-y3-zJg" kind="show" id="hDx-PT-P7P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWY-KE-6I7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="724.63768115942037" y="20.758928571428569"/>
+            <point key="canvasLocation" x="768" y="21"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="b6y-tf-bEi">
+            <objects>
+                <viewController id="01J-y3-zJg" customClass="thirdViewController" customModule="Triggered" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TJb-HT-kMz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaperijo" translatesAutoresizingMaskIntoConstraints="NO" id="RIV-xn-4jF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mosquito" translatesAutoresizingMaskIntoConstraints="NO" id="gWa-VO-KNv">
+                                <rect key="frame" x="152" y="384" width="111" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HKu-cT-RHl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aA9-zx-IX9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1544.9275362318842" y="20.758928571428569"/>
         </scene>
     </scenes>
     <resources>
-        <image name="STARR" width="405" height="384"/>
-        <image name="Star" width="150" height="134"/>
-        <image name="Triangle" width="120" height="120"/>
+        <image name="ANNOYINGFACE" width="173" height="167"/>
+        <image name="Annoyingface copy" width="286" height="250"/>
+        <image name="Mosquito" width="321" height="427"/>
+        <image name="Wallpaper oren 2" width="596" height="596"/>
+        <image name="Wallpaper orennnn" width="828" height="1792"/>
+        <image name="Wallpaperkuning" width="414" height="896"/>
+        <image name="Wallpaperoren" width="414" height="414"/>
+        <image name="wallpaperijo" width="414" height="896"/>
     </resources>
 </document>

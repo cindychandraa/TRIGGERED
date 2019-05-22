@@ -10,9 +10,10 @@
 		DB68A79D22925F25001D9BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68A79C22925F25001D9BFF /* AppDelegate.swift */; };
 		DB68A79F22925F25001D9BFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68A79E22925F25001D9BFF /* ViewController.swift */; };
 		DB68A7A222925F25001D9BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB68A7A022925F25001D9BFF /* Main.storyboard */; };
-		DB68A7A422925F26001D9BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB68A7A322925F26001D9BFF /* Assets.xcassets */; };
 		DB68A7A722925F26001D9BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB68A7A522925F26001D9BFF /* LaunchScreen.storyboard */; };
 		DB68A7B122927135001D9BFF /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68A7B022927135001D9BFF /* secondViewController.swift */; };
+		DB6B0C6C229556F300F62BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6B0C6B229556F200F62BD9 /* Assets.xcassets */; };
+		DB6B0C8E22957D3F00F62BD9 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B0C8D22957D3F00F62BD9 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		DB68A79C22925F25001D9BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB68A79E22925F25001D9BFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB68A7A122925F25001D9BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB68A7A322925F26001D9BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB68A7A622925F26001D9BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB68A7A822925F26001D9BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB68A7B022927135001D9BFF /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		DB6B0C6B229556F200F62BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB6B0C8D22957D3F00F62BD9 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,11 @@
 				DB68A79C22925F25001D9BFF /* AppDelegate.swift */,
 				DB68A79E22925F25001D9BFF /* ViewController.swift */,
 				DB68A7B022927135001D9BFF /* secondViewController.swift */,
+				DB6B0C8D22957D3F00F62BD9 /* thirdViewController.swift */,
 				DB68A7A022925F25001D9BFF /* Main.storyboard */,
-				DB68A7A322925F26001D9BFF /* Assets.xcassets */,
 				DB68A7A522925F26001D9BFF /* LaunchScreen.storyboard */,
 				DB68A7A822925F26001D9BFF /* Info.plist */,
+				DB6B0C6B229556F200F62BD9 /* Assets.xcassets */,
 			);
 			path = Triggered;
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB68A7A722925F26001D9BFF /* LaunchScreen.storyboard in Resources */,
-				DB68A7A422925F26001D9BFF /* Assets.xcassets in Resources */,
+				DB6B0C6C229556F300F62BD9 /* Assets.xcassets in Resources */,
 				DB68A7A222925F25001D9BFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +143,7 @@
 			files = (
 				DB68A79F22925F25001D9BFF /* ViewController.swift in Sources */,
 				DB68A7B122927135001D9BFF /* secondViewController.swift in Sources */,
+				DB6B0C8E22957D3F00F62BD9 /* thirdViewController.swift in Sources */,
 				DB68A79D22925F25001D9BFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5T3Q68SMU;
 				INFOPLIST_FILE = Triggered/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5T3Q68SMU;
 				INFOPLIST_FILE = Triggered/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
