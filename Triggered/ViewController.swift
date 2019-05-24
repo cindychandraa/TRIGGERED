@@ -7,14 +7,37 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    var audiooPlayer = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        do {
+            audiooPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Teriak", ofType: "m4a")!))
+            
+            audiooPlayer.prepareToPlay()
+            
+        }
+            
+        catch {
+            print(error)
+        }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    @IBAction func playScream(_ sender: Any) {
+        audiooPlayer.play()
+        
+        }
+    
+        
     }
 
-
-}
 

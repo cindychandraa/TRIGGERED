@@ -14,6 +14,8 @@
 		DB68A7B122927135001D9BFF /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68A7B022927135001D9BFF /* secondViewController.swift */; };
 		DB6B0C6C229556F300F62BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6B0C6B229556F200F62BD9 /* Assets.xcassets */; };
 		DB6B0C8E22957D3F00F62BD9 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B0C8D22957D3F00F62BD9 /* thirdViewController.swift */; };
+		DB951ADF2297CBFA007E815C /* Teriak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DB951ADC2297CA74007E815C /* Teriak.m4a */; };
+		DBD4B6D32296938A005916EE /* Mosquito.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DBD4B6D122967C60005916EE /* Mosquito.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DB68A7B022927135001D9BFF /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		DB6B0C6B229556F200F62BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6B0C8D22957D3F00F62BD9 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		DB951ADC2297CA74007E815C /* Teriak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Teriak.m4a; sourceTree = "<group>"; };
+		DBD4B6D122967C60005916EE /* Mosquito.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mosquito.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		DB68A79B22925F25001D9BFF /* Triggered */ = {
 			isa = PBXGroup;
 			children = (
+				DBD4B6D022967C08005916EE /* New Group */,
 				DB68A79C22925F25001D9BFF /* AppDelegate.swift */,
 				DB68A79E22925F25001D9BFF /* ViewController.swift */,
 				DB68A7B022927135001D9BFF /* secondViewController.swift */,
@@ -65,9 +70,26 @@
 				DB68A7A022925F25001D9BFF /* Main.storyboard */,
 				DB68A7A522925F26001D9BFF /* LaunchScreen.storyboard */,
 				DB68A7A822925F26001D9BFF /* Info.plist */,
+				DBD4B6D2229681D8005916EE /* music */,
 				DB6B0C6B229556F200F62BD9 /* Assets.xcassets */,
 			);
 			path = Triggered;
+			sourceTree = "<group>";
+		};
+		DBD4B6D022967C08005916EE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DBD4B6D2229681D8005916EE /* music */ = {
+			isa = PBXGroup;
+			children = (
+				DB951ADC2297CA74007E815C /* Teriak.m4a */,
+				DBD4B6D122967C60005916EE /* Mosquito.m4a */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +124,11 @@
 				TargetAttributes = {
 					DB68A79822925F25001D9BFF = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB68A7A722925F26001D9BFF /* LaunchScreen.storyboard in Resources */,
+				DBD4B6D32296938A005916EE /* Mosquito.m4a in Resources */,
+				DB951ADF2297CBFA007E815C /* Teriak.m4a in Resources */,
 				DB6B0C6C229556F300F62BD9 /* Assets.xcassets in Resources */,
 				DB68A7A222925F25001D9BFF /* Main.storyboard in Resources */,
 			);
